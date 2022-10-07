@@ -49,8 +49,6 @@ Core stack: HTML, CSS, JavaScript, TypeScript, React.
 
 - Single page application of personal finance accounting developed with JavaScriptgit
 
-## Experience
-
 ## Education
 
 2022-01-23 | JavaScript & React
