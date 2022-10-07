@@ -47,7 +47,7 @@ Core stack: HTML, CSS, JavaScript, TypeScript, React.
 
 2022-01-14 | [Home budget accountant](https://github.com/dmalenik/project-3-211210.github.io)
 
-- Single page application of personal finance accounting developed with JavaScriptgit
+- Single page application of personal finance accounting developed with JavaScript
 
 ## Education
 
