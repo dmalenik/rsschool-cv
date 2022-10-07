@@ -35,6 +35,45 @@ Core stack: HTML, CSS, JavaScript, TypeScript, React.
 - Windows CLI
 - n8n
 
+## Code examples
+
+``` JavaScript
+const nums = [3, 2, 1, 4, 6, 5, 7, 9, 8, 10];
+
+const countDigits = (num, count = 0) => {
+  return num ? countDigits(Math.floor(num / 10), ++count) : count;
+};
+
+const findDigitsArr = (arr, countFn) => arr.map(num => countFn(num));
+
+const findMaxDigitNumber = digitsArr => Math.max(...digitsArr);
+
+const getDigit = (num, i = 0) => {
+  return Math.floor(Math.abs(num) / Math.pow(10, i)) % 10; 
+};
+
+const radixSort = numbers => {
+  let i = 0;
+  const maxDigitNumber = findMaxDigitNumber(findDigitsArr(numbers, countDigits));
+
+  while (i < maxDigitNumber) {
+    let buckets = Array.from({length: 10}, () => []);
+
+    numbers.map(num => {
+      let digit = getDigit(num, i);
+
+      buckets[digit].push(num);
+    });
+
+    numbers = [].concat(...buckets);
+
+    i++;
+  }
+
+  return numbers;
+};
+```
+
 ## Experience/ Code examples
 
 2022-02-08 | [Currency converter](https://github.com/dmalenik/currencyconverter)
