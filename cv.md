@@ -1,24 +1,36 @@
 # DMYTRO MALIENIK
+
 \+ 48 690 208 735 | dmalenik@gmail.com | [LinkedIn](https://www.linkedin.com/in/dmitriy-m-137a735b/)
 
 ## Summary
-Front-end developer. Looking for an internship.   
+
+Front-end developer. Looking for an internship.  
 Core stack: HTML, CSS, JavaScript, TypeScript, React.
 
 ## Skills
+
 ### Programming languages
+
 - JavaScript
 - TypeScript
+
 ### Libraries
+
 - React
 - Jest.js
 - Mocha.js
+
 ### Methodologies
+
 - CI/ CD
 - Scrum
+
 ### Version control
+
 - Git
+
 ### Tools
+
 - Node.js
 - Windows CLI
 - n8n
@@ -35,7 +47,7 @@ Core stack: HTML, CSS, JavaScript, TypeScript, React.
 
 3. 2022-01-14 | [Home budget accountant](https://github.com/dmalenik/project-3-211210.github.io)
 
-    - Single page application of personal finance accounting developed with JavaScriptgit 
+    - Single page application of personal finance accounting developed with JavaScriptgit
 
 ## Experience
 
