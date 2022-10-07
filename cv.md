@@ -90,27 +90,27 @@ const radixSort = numbers => {
 
 ## Education
 
-current | JS/Frontend development course
+current | **JS/Frontend development course**
 
 - Rolling Scopes School
 
-2022-01-23 | JavaScript & React
+2022-01-23 | **JavaScript & React**
 
 - Future Collars
 
-2021-11-06 | English for IT
+2021-11-06 | **English for IT**
 
 - Eklektika
 
-2021-10-24 | HTML/ CSS
+2021-10-24 | **HTML/ CSS**
 
 - Future Collars
 
-2019-11-28 | Communication Skills
+2019-11-28 | **Communication Skills**
 
 - EY Global Delivery Services Poland
 
-2019-10-31 | Creative Skills for Innovation
+2019-10-31 | **Creative Skills for Innovation**
 
 - PFR, Google
 
