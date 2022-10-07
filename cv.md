@@ -90,6 +90,10 @@ const radixSort = numbers => {
 
 ## Education
 
+current | JS/Frontend development course
+
+- Rolling Scopes School
+
 2022-01-23 | JavaScript & React
 
 - Future Collars
