@@ -116,4 +116,4 @@ current | **JS/Frontend development course**
 
 ## English
 
-- B2 (read technical documentation, guidelines and handbooks, listen to tutorials)
+- *B2 (read technical documentation, guidelines and handbooks, listen to tutorials)*
