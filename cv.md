@@ -60,3 +60,7 @@ Core stack: HTML, CSS, JavaScript, TypeScript, React.
 2019-10-31 | Creative Skills for Innovation
 
 - PFR, Google
+
+## English
+
+- B2 (read technical documentation, guidelines and handbooks, listen to tutorials)
