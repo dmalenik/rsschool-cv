@@ -78,15 +78,15 @@ const radixSort = numbers => {
 
 2022-02-08 | [Currency converter](https://github.com/dmalenik/currencyconverter)
 
-- Single page application of currency converter reworked with React
+- *Single page application of currency converter reworked with React*
 
 2022-01-23 | [Currency counter](https://github.com/dmalenik/project-4-220116.github.io)
 
-- Single page application of currency converter created with JavaScript
+- *Single page application of currency converter created with JavaScript*
 
 2022-01-14 | [Home budget accountant](https://github.com/dmalenik/project-3-211210.github.io)
 
-- Single page application of personal finance accounting developed with JavaScript
+- *Single page application of personal finance accounting developed with JavaScript*
 
 ## Education
 
