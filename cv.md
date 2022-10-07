@@ -74,7 +74,7 @@ const radixSort = numbers => {
 };
 ```
 
-## Experience/ Code examples
+## Experience
 
 2022-02-08 | [Currency converter](https://github.com/dmalenik/currencyconverter)
 
