@@ -92,27 +92,27 @@ const radixSort = numbers => {
 
 current | **JS/Frontend development course**
 
-- Rolling Scopes School
+- [Rolling Scopes School](https://wearecommunity.io/events/rs-js-en-2022q3)
 
 2022-01-23 | **JavaScript & React**
 
-- Future Collars
+- [Future Collars](https://futurecollars.com/kursy/pakiet-frontend-developer/)
 
 2021-11-06 | **English for IT**
 
-- Eklektika
+- [Eklektika](https://eklektika.pl/en/learning-platform/english-for-it/)
 
 2021-10-24 | **HTML/ CSS**
 
-- Future Collars
+- [Future Collars](https://futurecollars.com/kursy/pakiet-frontend-developer/)
 
 2019-11-28 | **Communication Skills**
 
-- EY Global Delivery Services Poland
+- [EY Global Delivery Services Poland](https://www.ey.com/en_pl/careers/global-delivery-services)
 
 2019-10-31 | **Creative Skills for Innovation**
 
-- PFR, Google
+- [PFR, Google](https://startup.pfr.pl/en/news/pfr-innovation-designers-register-free-design-thinking-workshop/)
 
 ## English
 
