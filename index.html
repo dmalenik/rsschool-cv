@@ -50,11 +50,50 @@
     <main>
       <article>
         <h2>Summary</h2>
-        <p></p>
+        <p>
+          Front-end developer. Looking for an internship. <br> 
+          Core stack: HTML, CSS, JavaScript, TypeScript, React.
+        </p>
       </article>
       <article>
         <h2>Code examples</h2>
-        <code></code>
+        <pre>
+          <code>
+            const nums = [3, 2, 1, 4, 6, 5, 7, 9, 8, 10];
+
+            const countDigits = (num, count = 0) => {
+              return num ? countDigits(Math.floor(num / 10), ++count) : count;
+            };
+
+            const findDigitsArr = (arr, countFn) => arr.map(num => countFn(num));
+            
+            const findMaxDigitNumber = digitsArr => Math.max(...digitsArr);
+
+            const getDigit = (num, i = 0) => {
+              return Math.floor(Math.abs(num) / Math.pow(10, i)) % 10; 
+            };
+            
+            const radixSort = numbers => {
+              let i = 0;
+              const maxDigitNumber = findMaxDigitNumber(findDigitsArr(numbers, countDigits));
+
+              while (i < maxDigitNumber) {
+                let buckets = Array.from({length: 10}, () => []);
+
+                numbers.map(num => {
+                  let digit = getDigit(num, i);
+
+                  buckets[digit].push(num);
+                });
+
+                numbers = [].concat(...buckets);
+                i++;
+              }
+
+              return numbers;
+            };
+          </code>
+        </pre>
       </article>
       <article>
         <h2>Project examples</h2>
