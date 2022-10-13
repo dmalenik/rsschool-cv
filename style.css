@@ -5,5 +5,10 @@
 #container {
   width: 80%;
   margin: auto;
+  display: flex;
 }
 
+.header-nav, .main-footer {
+  display: flex;
+  flex-direction: column;
+}
