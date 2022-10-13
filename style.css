@@ -19,6 +19,13 @@
 }
 
 header,
+nav,
+main,
+footer {
+  padding: 3%;
+}
+
+header,
 footer {
   background-color: #e4eaf5;
 }
@@ -27,7 +34,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3%;
 }
 
 h1,
@@ -44,7 +50,6 @@ nav {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 3%;
 }
 
 nav li {
@@ -64,7 +69,6 @@ nav h2 {
 main {
   display: flex;
   flex-direction: column;
-  padding: 3%;
 }
 
 main > article {
