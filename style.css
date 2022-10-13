@@ -43,6 +43,7 @@ nav {
 nav {
   display: flex;
   flex-direction: column;
+  height: 100%;
   padding: 3%;
 }
 
@@ -70,6 +71,10 @@ main > article {
   margin-bottom: 4%;
 }
 
+.english {
+  margin-bottom: 0;
+}
+
 main h2 {
   margin-top: 0;
   margin-bottom: 1%;
@@ -87,6 +92,11 @@ main h2 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 3%;
+}
+
+.project:last-child,
+.school:last-child {
+  margin-bottom: 0;
 }
 
 .project__date,
