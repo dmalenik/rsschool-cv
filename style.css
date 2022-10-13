@@ -13,12 +13,30 @@
   flex-direction: column;
 }
 
+.header-nav {
+  width: 40%;
+}
+
+.main-footer {
+  width: 60%;
+}
+
 header, nav, main, footer {
   border: 1px solid black;
 }
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > h1 {
+  width: 30%;
+}
+
+#my-photo {
+  width: 30%;
 }
 
 nav {
@@ -33,9 +51,4 @@ main {
 
 footer {
   display: flex;
-}
-
-#my-photo {
-  width: 100px;
-  height: 100px;
 }
