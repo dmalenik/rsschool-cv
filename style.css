@@ -58,7 +58,7 @@ main {
   margin-bottom: 0;
 }
 
-.project {
+.project, .school {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 5%;
@@ -71,18 +71,33 @@ main {
   align-self: center;
 }
 
-.project__date {
+.project__date, .school__graduation {
   order: 1;
   width: 20%;
 }
 
-.project__header {
+.project__header, .school__program {
   order: 2;
   width: 60%;
 }
 
-.project__description {
+.project__header > h3 {
+  margin: 0;
+}
+
+.project__description, .school__name {
   order: 3;
+  margin-top: 1%;
+}
+
+.school__graduation,
+.school__program,
+.school__name {
+  margin: 0;
+}
+
+.school__program {
+  width: 80%;
 }
 
 footer {
