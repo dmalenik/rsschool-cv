@@ -50,7 +50,7 @@ main {
   padding: 3%;
 }
 
-.summary > p {
+.summary > p, .english > p {
   text-align: justify;
 }
 
