@@ -12,3 +12,30 @@
   display: flex;
   flex-direction: column;
 }
+
+header, nav, main, footer {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+}
+
+#my-photo {
+  width: 100px;
+  height: 100px;
+}
