@@ -1,3 +1,5 @@
+/*default styles*/
+
 #container {
   width: 80%;
   margin: auto;
@@ -18,7 +20,8 @@
   width: 60%;
 }
 
-header,
+/*layout styles*/
+
 nav,
 main,
 footer {
@@ -29,14 +32,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #c0e6f4;
 }
 
-header > h1 {
+h1, #my-photo {
   width: 30%;
-}
-
-#my-photo {
-  width: 30%;
+  padding: 3%;
 }
 
 nav {
@@ -49,6 +50,8 @@ main {
   flex-direction: column;
   padding: 3%;
 }
+
+/*module styles*/
 
 main > article {
   margin-bottom: 3%;
