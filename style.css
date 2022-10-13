@@ -49,6 +49,10 @@ main {
   flex-direction: column;
 }
 
+.summary > p {
+  text-align: justify;
+}
+
 footer {
   display: flex;
 }
