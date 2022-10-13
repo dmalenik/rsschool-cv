@@ -114,4 +114,26 @@ article > h2 {
 
 footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course, .credentials {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 0 2%;
+  padding: 2%;
+}
+
+.course {
+  justify-content: flex-start;
+}
+
+.credentials {
+  justify-content: flex-end;
+}
+
+#logo {
+  width: 40%;
 }
