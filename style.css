@@ -18,7 +18,8 @@
   width: 60%;
 }
 
-header, footer {
+header,
+footer {
   background-color: #fff;
 }
 
@@ -34,7 +35,8 @@ h1,
   width: 30%;
 }
 
-main, nav {
+main,
+nav {
   background-color: #ede1ca;
 }
 
@@ -133,21 +135,20 @@ footer {
 
 .course,
 .credentials {
-  width: 50%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 2%;
-}
-
-.course {
-  justify-content: flex-start;
+  width: 50%;
 }
 
 .credentials {
   justify-content: flex-end;
 }
 
+#logo,
+.credentials > a {
+  margin-right: 3%;
+}
+
 #logo {
-  width: 40%;
+  width: 50%;
 }
