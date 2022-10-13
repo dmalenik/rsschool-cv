@@ -1,0 +1,168 @@
+#container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.header-nav,
+.main-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-nav {
+  width: 40%;
+}
+
+.main-footer {
+  width: 60%;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 3%;
+}
+
+header,
+footer {
+  background-color: #e4eaf5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+#my-photo {
+  width: 30%;
+}
+
+main,
+nav {
+  background-color: #ede1ca;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+nav li {
+  margin-bottom: 2%;
+  font-size: large;
+}
+
+nav h2 {
+  margin-top: 0;
+}
+
+.contacts,
+.skills {
+  margin-bottom: 3%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > article {
+  margin-bottom: 4%;
+}
+
+.english {
+  margin-bottom: 0;
+}
+
+main h2 {
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.summary > p,
+.project > p,
+.english > p {
+  text-align: justify;
+  margin: 0;
+}
+
+.project,
+.school {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+}
+
+.project:last-child,
+.school:last-child {
+  margin-bottom: 0;
+}
+
+.project__date,
+.project__header,
+.project__description {
+  margin: 0;
+  align-self: center;
+}
+
+.project__date,
+.school__graduation {
+  order: 1;
+  width: 20%;
+}
+
+.project__header,
+.school__program {
+  order: 2;
+  width: 60%;
+}
+
+.project__header > h3 {
+  margin: 0;
+}
+
+.project__description,
+.school__name {
+  order: 3;
+}
+
+.school__graduation,
+.school__program,
+.school__name {
+  margin: 0;
+}
+
+.school__program {
+  width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course,
+.credentials {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.credentials {
+  justify-content: flex-end;
+}
+
+#logo,
+.credentials > a {
+  margin-right: 3%;
+}
+
+#logo {
+  width: 50%;
+}
